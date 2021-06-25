@@ -41,7 +41,7 @@ router.post('/', [
 		const isMatch = await bcrypt.compare(password, user.password);
 
 		// Sending err msg if wrong password
-		if (!isMatch) {
+		if(!isMatch) {
 			return res.status(400).json({ msg: 'Invalid Credentials' });
 		}
 
