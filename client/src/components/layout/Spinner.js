@@ -9,4 +9,4 @@ const Spinner = () => <Fragment>
 	/>
 </Fragment>
 
-export default Spinner
+export default Spinner;
