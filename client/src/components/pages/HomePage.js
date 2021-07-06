@@ -3,7 +3,7 @@ import React from 'react'
 const HomePage = () => {
 	return (
 		<div>
-			<div className='jumbotron'>
+			<div className='jumbotron' id='header_img'>
 			</div>
 		</div>
 	)
