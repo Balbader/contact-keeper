@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
+import HomePage from './components/pages/HomePage';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Register from './components/auth/Register';
@@ -31,6 +32,7 @@ const App = () => {
                 <Alerts />
                 <Switch>
                   <PrivateRoute exact path='/' component={Home} />
+                  <Route exact path='/home_page' component={HomePage} />
                   <Route exact path='/about' component={About} />
                   <Route exact path='/register' component={Register} />
                   <Route exact path='/login' component={Login} />
