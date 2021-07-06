@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 /* Global Styles */
 :root {
@@ -379,7 +380,7 @@ table th {
   margin-bottom: 1rem;
   background-color: black;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 12px;
 }
 
@@ -395,11 +396,16 @@ table th {
 }
 
 .navbar a:hover {
-  color: var(--light-color);
+  color: gray;
 }
 
 .navbar .welcome span {
   margin-right: 0.6rem;
+}
+
+.user_name {
+  font-size: 20px;
+  margin-right: 10px;
 }
 
 /* Animation (Add After) */
@@ -454,8 +460,6 @@ table th {
 
   .navbar h1 {
     margin-bottom: 0.6rem;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
   }
 
   .navbar ul {

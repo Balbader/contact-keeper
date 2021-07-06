@@ -10,7 +10,7 @@ const Navbar = ({ title, icon }) => {
 	const contactContext = useContext(ContactContext);
 
 	const { isAuthenticated, logout, user } = authContext;
-	const { clearContacts } =contactContext;
+	const { clearContacts } = contactContext;
 
 	const onLogout = () => {
 		logout();
@@ -47,7 +47,7 @@ const Navbar = ({ title, icon }) => {
 	);
 
 	return (
-		<div className='navbar bg-primary'>
+		<div className='navbar'>
 			<h1>
 				<i className={icon} /> {title}
 			</h1>
