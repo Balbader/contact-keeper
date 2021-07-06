@@ -110,24 +110,31 @@ img {
 .p {
   padding: 0.5rem;
 }
+
 .p-1 {
   padding: 1rem;
 }
+
 .p-2 {
   padding: 2rem;
 }
+
 .p-3 {
   padding: 3rem;
 }
+
 .py {
   padding: 0.5rem 0;
 }
+
 .py-1 {
   padding: 1rem 0;
 }
+
 .py-2 {
   padding: 2rem 0;
 }
+
 .py-3 {
   padding: 3rem 0;
 }
@@ -136,24 +143,31 @@ img {
 .m {
   margin: 0.5rem;
 }
+
 .m-1 {
   margin: 1rem;
 }
+
 .m-2 {
   margin: 2rem;
 }
+
 .m-3 {
   margin: 3rem;
 }
+
 .my {
   margin: 0.5rem 0;
 }
+
 .my-1 {
   margin: 1rem 0;
 }
+
 .my-2 {
   margin: 2rem 0;
 }
+
 .my-3 {
   margin: 3rem 0;
 }
@@ -361,9 +375,12 @@ table th {
   padding: 0.7rem 2rem;
   z-index: 1;
   width: 100%;
-  border-bottom: solid 1px var(--primary-color);
   opacity: 0.9;
   margin-bottom: 1rem;
+  background-color: black;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
 }
 
 .navbar ul {
@@ -371,7 +388,8 @@ table th {
 }
 
 .navbar a {
-  color: #fff;
+  color: white;
+  font-size: large;
   padding: 0.45rem;
   margin: 0 0.25rem;
 }
@@ -388,13 +406,16 @@ table th {
 .item-enter {
   opacity: 0;
 }
+
 .item-enter-active {
   opacity: 1;
   transition: opacity 1000ms ease-in;
 }
+
 .item-exit {
   opacity: 1;
 }
+
 .item-exit-active {
   opacity: 0;
   transition: opacity 1000ms ease-in;
@@ -433,6 +454,8 @@ table th {
 
   .navbar h1 {
     margin-bottom: 0.6rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
   }
 
   .navbar ul {
