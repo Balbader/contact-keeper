@@ -24,11 +24,13 @@
   "homepage": "https://github.com/Balbader/contact-keeper#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.0.2",
     "config": "^3.3.6",
     "express": "^4.17.1",
     "express-validator": "^6.12.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.12.14"
+    "mongoose": "^5.12.14",
+    "react-bootstrap": "^1.6.1"
   },
   "devDependencies": {
     "concurrently": "^6.2.0",
