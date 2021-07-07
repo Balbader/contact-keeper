@@ -10,18 +10,16 @@
   --success-color: #28a745;
 }
 
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} */
 
 body {
   font-family: 'Nunito', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
-  color: #333;
 }
 
 a {
@@ -465,13 +463,5 @@ table th {
   .navbar ul {
     text-align: center;
     justify-content: center;
-  }
-
-  /* Home Page */
-  #header_img {
-    background-image: url('https://cdn.discordapp.com/attachments/822541048059920435/862018200908070982/seminar-594125_1920.jpg');
-    background-size: cover;
-    height: 100%;
-    width: 100%;
   }
 }
