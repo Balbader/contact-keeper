@@ -1,4 +1,4 @@
 {
-	"mongoURI": "mongodb+srv://Balbader:Drummerworld090283@contactkeeper.balpg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+	"mongoURI": "mongodb+srv://Balbader:Baloucode83@contactkeeper.balpg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
 	"jwtSecret": "secret"
 }
