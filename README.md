@@ -4,7 +4,7 @@ Full Stack MERN contact manager with React Hooks, context & JWT authentication.<
 ## Usage
 
 Install dependencies<br>
-`npm install`
+`npm install`<br>
 `npm client-install`
 
 ### Mongo conection setup
@@ -13,7 +13,7 @@ Edit your `/config/default.json` to include the correct MongoDB URI<br>
 
 ## Run Server
 `
-npm run dev     #Express & React :3000 & :5000
-npm run server  #Express API Only :5000
-npm run client  #React Client Only :3000
+npm run dev     #Express & React :3000 & :5000 <br>
+npm run server  #Express API Only :5000 <br> 
+npm run client  #React Client Only :3000 <br>
 `
